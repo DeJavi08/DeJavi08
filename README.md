@@ -1,8 +1,7 @@
 <h1 align="center">Hello World 👋, my name is Javier Ahmad Arivery</h1>
 <h3 align="center">مَرْحَبًا , Welcome to my Github Repository 😈📈</h3>
 
-<p align="center"><img src = "[https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDhvajJ3YTE2bnluc2MxY2IzYmk2dmJheDZ5c2R1ZWlkemw3dXgyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zRJHDDTmyqfM1HYEqg/giphy.gif"](https://github.com/DeJavi08/DeJavi08/blob/main/Ayanokoji.gif)
-" width = 100% height= 100%> </h1>
+<p align="center"><img src = "https://github.com/DeJavi08/DeJavi08/blob/main/Ayanokoji.gif" width = 100% height= 100%> </h1>
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=andikart421&label=Profile%20views&color=0e75b6&style=flat" alt="andikart421" /> </p> -->
 
