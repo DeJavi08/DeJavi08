@@ -8,7 +8,7 @@
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=andikart421" alt="andikart421" /></a> </p> -->
 
 # 💫 About Me:
-📝 I’m currently studying at SMAN 17 Surabaya<br>🌱 I’m currently learn "how to use kali linux"<br>👨‍💻 All of my projects are available at [Replit](https://replit.com/@Dejavi08)<br>📫 How to reach me xiergraph@gmail.com<br>😄 Pronouns: Javi, jawir, vier <br>⚡ Fun fact Kiyotaka Ayokoji is my hero
+📝 I’m currently studying at SMAN 17 Surabaya<br>🌱 I’m currently learn "how to use kali linux"<br>👨‍💻 All of my projects are available at [Replit](https://replit.com/@Dejavi08)<br>📫 How to reach me xiergraph@gmail.com<br>😄 Pronouns: Javi, jawir, vier <br>⚡ Fun fact Kiyotaka Ayokonoji is my hero
 
 
 ## 🌐 Socials:
