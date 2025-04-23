@@ -22,7 +22,7 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=DeJavi08&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=DeJavi08&theme=shadow_green&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=dejavi08&theme=onedark&no-frame=true&column=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
@@ -32,6 +32,8 @@
 
   ## 💰 You can help me by Donating
   [![BuyMeACoffee](https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png)](https://saweria.co/DeJavi08) 
+* BTC: `bc1p3s2jpgrzw8ac6zv3nvlr997vwerapf9g3xcw0t2lm2xhkn5xdhxqkqsse6`
+* ETH: `0xE50dEe8088E00F9E43062389939867031Ff4F588`
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
