@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeJavi Links</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --spotify-black: #121212;
+            --spotify-dark-gray: #181818;
+            --spotify-light-gray: #282828;
+            --spotify-green: #1DB954;
+            --spotify-white: #FFFFFF;
+            --spotify-text: #b3b3b3;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gotham', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        
+        body {
+            background-color: var(--spotify-black);
+            color: var(--spotify-white);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 24px;
+            background-color: var(--spotify-dark-gray);
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+        
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: var(--spotify-white);
+        }
+        
+        .search-box {
+            display: flex;
+            align-items: center;
+            background: var(--spotify-light-gray);
+            border-radius: 20px;
+            padding: 8px 16px;
+            width: 200px;
+        }
+        
+        .search-box input {
+            background: transparent;
+            border: none;
+            color: var(--spotify-white);
+            margin-left: 8px;
+            width: 100%;
+            outline: none;
+        }
+        
+        .search-box input::placeholder {
+            color: var(--spotify-text);
+        }
+        
+        /* Profile Section */
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 24px;
+            background-color: var(--spotify-dark-gray);
+            border-radius: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid var(--spotify-green);
+        }
+        
+        .profile-name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .profile-bio {
+            color: var(--spotify-text);
+            max-width: 500px;
+            margin-bottom: 24px;
+        }
+        
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        
+        .social-icon {
+            color: var(--spotify-white);
+            background-color: var(--spotify-light-gray);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            background-color: var(--spotify-green);
+            transform: scale(1.1);
+        }
+        
+        /* Links Section */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .link-item {
+            display: flex;
+            align-items: center;
+            background-color: var(--spotify-dark-gray);
+            border-radius: 8px;
+            padding: 16px;
+            text-decoration: none;
+            color: var(--spotify-white);
+            transition: all 0.3s ease;
+            gap: 12px;
+        }
+        
+        .link-item:hover {
+            background-color: var(--spotify-light-gray);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .link-icon {
+            background-color: var(--spotify-green);
+            min-width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--spotify-black);
+        }
+        
+        .link-title {
+            flex-grow: 1;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--spotify-text);
+            font-size: 0.8rem;
+        }
+        
+        /* Product Grid */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        
+        .product-item {
+            background-color: var(--spotify-dark-gray);
+            border-radius: 8px;
+            overflow: hidden;
+            text-decoration: none;
+            color: var(--spotify-white);
+            transition: all 0.3s ease;
+        }
+        
+        .product-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .product-image {
+            height: 180px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            padding: 16px;
+        }
+        
+        .product-title {
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+        
+        .product-subtitle {
+            font-size: 0.8rem;
+            color: var(--spotify-text);
+            margin-bottom: 8px;
+        }
+        
+        .product-price {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: var(--spotify-text);
+            font-size: 0.9rem;
+        }
+        
+        .sale-price {
+            color: var(--spotify-green);
+            font-weight: bold;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 16px;
+            }
+            
+            .navbar {
+                flex-direction: column;
+                gap: 16px;
+            }
+            
+            .search-box {
+                width: 100%;
+            }
+            
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .profile-name {
+                font-size: 1.8rem;
+            }
+            
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .social-icons {
+                gap: 12px;
+            }
+            
+            .profile-pic {
+                width: 80px;
+                height: 80px;
+            }
+            
+            .profile-name {
+                font-size: 1.5rem;
+            }
+            
+            .link-item {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <div class="logo">DeJavi Links</div>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search..." id="searchInput">
+            </div>
+        </div>
+        
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="https://i.imgur.com/MUIrctm_d.webp?maxwidth=760&fidelity=grand" alt="DeJavi Profile" class="profile-pic" id="profile-pic">
+            <h1 class="profile-name">DeJavi</h1>
+            <p class="profile-bio">Seorang pemuda yang berjuang di era modern dengan menginvestasikan waktunya untuk belajar dunia digital</p>
+            
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@Javi_Gaming" target="_blank" class="social-icon" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://instagram.com/javii08.__" target="_blank" class="social-icon" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/DeJavi08" target="_blank" class="social-icon" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://linkedin.com/in/javier-ahmad-arivery-a981782a7" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://tiktok.com/@dejavi08" target="_blank" class="social-icon" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://github.com/dejavi08" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Links Section -->
+        <div class="links" id="links-container">
+            <h2 style="color: var(--spotify-green); margin-bottom: 16px; font-size: 1.5rem; padding-left: 8px;">My Profile</h2>
+            
+            <a href="https://javiahmad.netlify.app/" target="_blank" class="link-item">
+                <div class="link-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="link-title">My Portfolio</div>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            
+            <a href="https://www.roblox.com/users/854555934/profile" target="_blank" class="link-item">
+                <div class="link-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="link-title">Roblox Profile</div>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            
+            <a href="https://intip.in/H0nq" target="_blank" class="link-item">
+                <div class="link-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="link-title">GMaps Profile</div>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            
+            <a href="https://www.relive.cc/profile/dejavi08" target="_blank" class="link-item">
+                <div class="link-icon">
+                    <i class="fas fa-route"></i>
+                </div>
+                <div class="link-title">Relive Profile</div>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            
+            <a href="https://www.strava.com/athletes/137899425" target="_blank" class="link-item">
+                <div class="link-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <div class="link-title">Strava Profile</div>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            
+            <a href="https://youtube.com/@javi_gaming?si=UYZ8RWRFupMzHiOh&sub_confirmation=1" target="_blank" class="link-item">
+                <div class="link-icon">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="link-title">YouTube Channel</div>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            
+            <!-- Products Section -->
+            <h2 style="color: var(--spotify-green); margin: 24px 0 16px; font-size: 1.5rem; padding-left: 8px;">My Products</h2>
+            
+            <div class="products-grid">
+                <a href="https://lynk.id/dejavi08/jwg13q4eneko" target="_blank" class="product-item">
+                    <div class="product-image">
+                        <img src="/api/placeholder/400/320" alt="SandArt Schematics #1" id="product-img-1">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">SandArt Schematics #1</h3>
+                        <div class="product-price">
+                            <span class="original-price">IDR 15,000</span>
+                            <span class="sale-price">IDR 10,000</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="http://lynk.id/dejavi08/14mx8049m4ym" target="_blank" class="product-item">
+                    <div class="product-image">
+                        <img src="/api/placeholder/400/320" alt="PRODUCTIVE BUNDLING 2.0" id="product-img-2">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">PRODUCTIVE BUNDLING 2.0</h3>
+                        <p class="product-subtitle">[Financial Planner 2.0-Habit Tracker-Project Management]</p>
+                        <div class="product-price">
+                            <span class="original-price">IDR 130,000</span>
+                            <span class="sale-price">Free</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 DeJavi Links</p>
+        </div>
+    </div>
+
+    <script>
+        // Attempt to load profile picture
+        document.addEventListener('DOMContentLoaded', function() {
+            // Replace with actual image URL when possible
+            const profilePic = document.getElementById('profile-pic');
+            const imgUrl = "https://github.com/DeJavi08/YTPlaylist-DW/blob/master/src/dejavi.jpg";
+            
+            // Set a fallback in case the image doesn't load
+            profilePic.onerror = function() {
+                profilePic.src = "/api/placeholder/120/120";
+            };
+            
+            // Try loading the image
+            const testImg = new Image();
+            testImg.onload = function() {
+                profilePic.src = imgUrl;
+            };
+            testImg.onerror = function() {
+                // Keep the placeholder
+            };
+            testImg.src = imgUrl;
+            
+            // Try loading product images
+            const productImg1 = document.getElementById('product-img-1');
+            const productImgUrl1 = "https://cdn.lynkid.my.id/products/13-05-2025/1747104573402_8236653.webp";
+            
+            // Set a fallback for product image 1
+            productImg1.onerror = function() {
+                productImg1.src = "/api/placeholder/400/320";
+            };
+            
+            // Try loading the product image 1
+            const testProductImg1 = new Image();
+            testProductImg1.onload = function() {
+                productImg1.src = productImgUrl1;
+            };
+            testProductImg1.onerror = function() {
+                // Keep the placeholder
+            };
+            testProductImg1.src = productImgUrl1;
+            
+            // Product image 2
+            const productImg2 = document.getElementById('product-img-2');
+            const productImgUrl2 = "https://cdn.lynkid.my.id/products/13-05-2025/1747105799293_1149181.webp";
+            
+            // Set a fallback for product image 2
+            productImg2.onerror = function() {
+                productImg2.src = "/api/placeholder/400/320";
+            };
+            
+            // Try loading the product image 2
+            const testProductImg2 = new Image();
+            testProductImg2.onload = function() {
+                productImg2.src = productImgUrl2;
+            };
+            testProductImg2.onerror = function() {
+                // Keep the placeholder
+            };
+            testProductImg2.src = productImgUrl2;
+        });
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            const searchValue = this.value.toLowerCase();
+            const links = document.querySelectorAll('.link-item');
+            
+            links.forEach(link => {
+                const text = link.querySelector('.link-title').textContent.toLowerCase();
+                if (text.includes(searchValue)) {
+                    link.style.display = 'flex';
+                } else {
+                    link.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
