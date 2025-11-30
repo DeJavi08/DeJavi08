@@ -1,0 +1,28 @@
+/* CSS untuk layout dan styling dasar */
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card-profile {
+    text-align: center;
+}
+
+.userpicture img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.headerbuttons {
+    margin: 15px 0;
+}
+
+.btn-header {
+    margin: 0 5px;
+}
+
+/* Tambahan styling sesuai kebutuhan */
