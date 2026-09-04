@@ -16,7 +16,7 @@
 
 ### 👨‍💻 About Me
 
-- 🎓 Currently studying **Informatics Engineering (D4 Teknik Informatika)** at **PENS**.
+- 🎓 Currently studying **Informatics Engineering** at **EEPIS**.
 - 🛠️ Building modern web apps using **React, Tailwind CSS, Python, and PHP**.
 - ⚙️ Tinkering with **Linux environments, self-hosted services, and automation workflows**.
 - 🎨 Experienced in digital media and UI/graphic design using Adobe Creative Suite.
