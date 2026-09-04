@@ -1,39 +1,87 @@
-<h1 align="center">Hello World 👋, my name is Javier Ahmad Arivery</h1>
-<h3 align="center">مَرْحَبًا , Welcome to my Github Repository 😈📈</h3>
-
 <p align="center"><img src = "https://github.com/DeJavi08/DeJavi08/blob/main/Ayanokoji-Wide.gif" width = 100% height= 100%> </h1>
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=andikart421&label=Profile%20views&color=0e75b6&style=flat" alt="andikart421" /> </p> -->
+<div align="center">
+  <h1>Hi, I'm Javier Ahmad Arivery 👋</h1>
+  <p><b>Informatics Engineering Student | Web Developer & Tech Enthusiast</b></p>
+  <p>Passionate about building responsive web applications, workflow automation, and self-hosted environments.</p>
 
-<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=andikart421" alt="andikart421" /></a> </p> -->
-
-# 💫 About Me:
-📝 I’m currently studying at SMAN 17 Surabaya<br>🌱 I’m currently learn "how to use kali linux"<br>👨‍💻 All of my projects are available at [Replit](https://replit.com/@Dejavi08)<br>📫 How to reach me xiergraph@gmail.com<br>😄 Pronouns: Javi, jawir, vier <br>⚡ Fun fact Kiyotaka Ayonokoji is my hero
-
-
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.com/invite/SRK4EY3kBH) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/100069168613136) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dejavi08) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/javier-ahmad-arivery-a981782a7) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@@dejavi08) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/DeJavi08) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@Javi_Gaming) 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=for-the-badge&logo=tampermonkey&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-white?logo=OpenGL&style=for-the-badge)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=DeJavi08&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=DeJavi08&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DeJavi08&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=dejavi08&theme=onedark&no-frame=true&column=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+  <p>
+    <a href="mailto:xiergraph@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+    <a href="https://linkedin.com/in/javier-ahmad-arivery-a981782a7"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://github.com/DeJavi08"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  </p>
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=DeJavi08&icon=0&color=0)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png)](https://saweria.co/DeJavi08) 
-* BTC: `bc1p3s2jpgrzw8ac6zv3nvlr997vwerapf9g3xcw0t2lm2xhkn5xdhxqkqsse6`
-* ETH: `0xE50dEe8088E00F9E43062389939867031Ff4F588`
+### 👨‍💻 About Me
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+- 🎓 Currently studying **Informatics Engineering (D4 Teknik Informatika)** at **PENS**.
+- 🛠️ Building modern web apps using **React, Tailwind CSS, Python, and PHP**.
+- ⚙️ Tinkering with **Linux environments, self-hosted services, and automation workflows**.
+- 🎨 Experienced in digital media and UI/graphic design using Adobe Creative Suite.
+- 💬 Reach out to me for web project collaborations or tech discussions.
+
+---
+
+### 🛠️ Tech Stack & Tools
+
+<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
+
+**Languages & Web Technologies**
+<p>
+  <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php" alt="PHP" />
+  <img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-05122A?style=flat&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5" alt="HTML5" />
+  <img src="https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=css3" alt="CSS3" />
+</p>
+
+**Deployment & Infrastructure**
+<p>
+  <img src="https://img.shields.io/badge/-Git-05122A?style=flat&logo=git" alt="Git" />
+  <img src="https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github" alt="GitHub" />
+  <img src="https://img.shields.io/badge/-Vercel-05122A?style=flat&logo=vercel" alt="Vercel" />
+  <img src="https://img.shields.io/badge/-Cloudflare-05122A?style=flat&logo=cloudflare" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux" alt="Linux" />
+</p>
+
+**Design & Creative**
+<p>
+  <img src="https://img.shields.io/badge/-Figma-05122A?style=flat&logo=figma" alt="Figma" />
+  <img src="https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop" alt="Photoshop" />
+  <img src="https://img.shields.io/badge/-Canva-05122A?style=flat&logo=canva" alt="Canva" />
+  <img src="https://img.shields.io/badge/-Premiere_Pro-05122A?style=flat&logo=adobe-premiere-pro" alt="Premiere Pro" />
+</p>
+
+---
+
+### 📊 GitHub Activity
+
+<p align="center">
+  <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DeJavi08&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=DeJavi08&layout=compact&langs_count=6&theme=algolia" alt="Top Languages" />
+</p>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeJavi08/DeJavi08/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DeJavi08/DeJavi08/output/github-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/DeJavi08/DeJavi08/output/github-snake.svg">
+  </picture>
+</div>
+
+---
+
+<div align="center">
+  <p>Find me elsewhere:</p>
+  <a href="https://instagram.com/dejavi08"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://youtube.com/@Javi_Gaming"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="https://x.com/DeJavi08"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X"></a>
+  <br><br>
+  <a href="https://saweria.co/DeJavi08"><img src="https://img.shields.io/badge/Support_via-Saweria-faad14?style=flat-square" alt="Saweria"></a><br><br>
+      <p><b>Bitcoin (BTC):</b> <code>bc1p3s2jpgrzw8ac6zv3nvlr997vwerapf9g3xcw0t2lm2xhkn5xdhxqkqsse6</code></p>
+    <p><b>Ethereum (ETH):</b> <code>0xE50dEe8088E00F9E43062389939867031Ff4F588</code></p>
+</div>
