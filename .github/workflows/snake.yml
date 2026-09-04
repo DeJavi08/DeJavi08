@@ -2,13 +2,8 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Berjalan otomatis setiap 12 jam (jam 00:00 & 12:00 UTC)
     - cron: "0 */12 * * *"
-  
-  # Bisa ditrigger manual lewat tab Actions
   workflow_dispatch:
-  
-  # Otomatis jalan saat ada push ke main
   push:
     branches:
       - main
@@ -21,15 +16,16 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake assets
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            public/github-contribution-grid-snake.svg
-            public/github-contribution-grid-snake-dark.svg?palette=github-dark
+            public/github-snake.svg
+            public/github-snake-dark.svg?palette=github-dark
+            public/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#05122A
 
-      - name: Push snake.svg to output branch
+      - name: Push output to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
